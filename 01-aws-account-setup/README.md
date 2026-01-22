@@ -1,73 +1,72 @@
-AWS IAM, Identity Centre, and Organisation Setup
+## AWS IAM, IDENTITY CENTER, AND ORGANIZATION SETUP
 
-This project documents the setup of an AWS Organisation, IAM Identity Centre, and permissions management. It is part of my #MyJourneyToBecomingACloudEngineer.
+## Project Objectives
 
-Project Objectives
+- Create and configure an AWS Organisation with 3 environment accounts.
+- Make one account the root user (Management account)
+- Set up AWS IAM Identity Centre with 5 users.
+- Group users by roles ( e.g. Admin, Developer, DevOps).
+- Create and attach permission-set policies to the different groups created.
+- Switching between accounts within the organisation in the IAM identity centre (SSO) page.
 
-Create and configure an AWS Organisation with 3 environment accounts
+## Tools Required
 
-Designate one account as the root (Management account)
+- New email addresses (i.e., ones that haven’t been used for an AWS account)
+- AWS Management Console.
+- AWS Organisation
+- IAM Identity Centre
+- Basic AWS account(s)
+- Notion (for documentation)
 
-Set up AWS IAM Identity Centre with 5 users
+## Step-by-Step Instructions
 
-Group users by roles (Admin, Developer, DevOps)
+### Phase 1: Setting Up an AWS Management Account
 
-Create and attach permission-set policies to the different groups
+Step 1: Open AWS.com and sign up using an email address
 
-Enable account switching through IAM Identity Centre (SSO)
+Step 2: Sign in to the AWS Management Console using the root user of the account
 
-Tools Required
+Step 3: Enable MFA from the IAM
 
-AWS Management Console
-
-IAM Identity Centre
-
-AWS Organisation
-
-Basic AWS accounts with new email addresses
-
-GitHub (for documentation)
-
-Step-by-Step Instructions
-Phase 1: AWS Management Account Setup
-
-Open AWS.com
- and sign up with a new email.
-
-Sign in to the AWS Management Console using the root user.
-
-Enable MFA from IAM to secure the account.
-
-Review: This account serves as the management account, securing access with MFA according to AWS best practices.
+**REVIEW:** This step was used to create the main account, which will serve as the management account for the organisation, and MFA was activated to secure it and comply with AWS best practices. The account was logged in using the root email portal.
 
 ![AWS IAM MFA setup](images/AWS-IAM-MFA-setup.png)
 
 
-Phase 2: Create an AWS Organisation
+### Phase 2: Create an AWS Organisation
 
-Go to AWS Organizations in the console.
+Step 1: Go to AWS Organisation in the console (the root user account)
 
-Create three accounts: Development, Staging, Production.
+Step 2: Create a Development account
 
-Enable “All features” during setup.
+Step 3: Create a Staging account
 
-Wait for the organisation to be fully created.
+Step 4: Create Production account
 
-Review: These accounts form the AWS environment structure. MFA is enabled on all accounts.
+Step 5: Click create and select all features
+
+Step 6: Wait for the organisation to get created
+
+**REVIEW:** This is where the different AWS environments are created that will form the organisation. This is after the management account was created in the previous step. The MFA of all three environment accounts were also enabled to comply with AWS best practices.
+
+### Issues Encountered, Troubleshooting and Solution
+
+- After adding one account, I was
+- Unable to add another account, Error message (”You exceeded the quota for accounts in your organisation”)
+- Troubleshooting: I checked Service Quotas and requested a limit increase.
+- Their response was “ it was restricted to only one account to avoid the misuse of the account since it was still a fresh account.
 
 ![AWS Organization Creation](images/aws-organization-creation.png)
 
 
-Issue Encountered: Unable to add more than one account due to the initial quota. Solution: Requested a limit increase in Service Quotas.
+### Phase 3: Create Permission Sets  
 
-Phase 3: Create Permission Sets
+Permission Sets created in IAM Identity Centre:
 
-Go to Permission Sets in IAM Identity Centre and create:
-
-Group	Permission Set
-Admin-Team	Admin-permission
-DevOps-Team	PowerUser-permission, SystemAdmin-permission
-Developer-Team	DataScientist-permission
+Group Permission Set
+Admin-Team- Admin-permission
+DevOps-Team- PowerUser-permission
+Developer-Team- DataScientist-permission
 
 Review: Permission sets ensure users have access only to what is needed for their role.
 
@@ -75,71 +74,44 @@ Review: Permission sets ensure users have access only to what is needed for thei
 
 
 
-Phase 4: Create Groups
+### Phase 4: Create 3 Groups (Admin, DevOps and Developer)
 
-Navigate to IAM Identity Centre.
+Step 1: 3 groups were created from the IAM Identity Centre
 
-Create groups: Admin, DevOps, Developer.
-
-Review: Groups are applied to all AWS accounts in the organisation.
+**REVIEW:**  The groups were created in all AWS accounts in the organisation.
 
 ![IAM Group Creation](images/iam_group_creation.png)
 
 
-Phase 5: Create Users
+### Phase 5: Create Users on the IAM Identity
 
-Add users to IAM Identity Centre using their emails.
+Step 1: On the IAM Identity Centre,  users were added, using their email to send password instructions
 
-Enable MFA for all users.
+Step 2: MFA enabled for each user
 
-Assign users to groups in all accounts.
+Step 3: The group was assigned to each user in both AWS environments
 
-Review: Users’ access and functionality depend on their group’s permission set.
+Step 4: Each user has access to both AWS environments but is limited to the permission set assigned to their group.
+
+**REVIEW:** Five users were added, and their various groups were assigned to them. Their functionality in the organisation was dependent on the set-permission policies given to the groups they are in.
 
 ![IAM User Creation](images/iam_user.png)
 
 
-Phase 6: SSO Account Switching
+### Phase 6: SSO Switch
 
-Users can switch between accounts via IAM Identity Centre (SSO).
+On the single Sign-on account, the users could switch between both AWS accounts in the organisation with ease; the user was automatically logged out from the previous environment each time there was a switch.
 
-Switching automatically logs them out from the previous account.
-
-Review: Tested SSO for all users. Only Admin group users have unrestricted access.
+**REVIEW:** This step was tested for each user to see their ease of transition on accounts within the organisation. Their different functionality in the accounts was tested, and they were restricted based on the permission set policies issued to their group. Only the users in the Admin group were unrestricted. This is because the permission set policy given to them allowed them access to everything in the accounts.
 
 
+### Observation
 
-Observations
+During the task, I identified a limitation within the AWS Organisation, where it was not possible to create more than two AWS accounts. This constraint affected my ability to scale the setup as initially planned.
 
-AWS Organisations initially limits account creation for fresh accounts.
+### Summary
 
-MFA and permission sets enhance security and proper access management.
-
-Summary
-
-This project involved:
-
-Setting up an AWS Organisation with a Management account
-
-Configuring IAM Identity Centre with 5 users and 3 groups
-
-Assigning permission sets for role-based access
-
-Testing account switching via SSO
-
-Despite quota limitations, the setup demonstrates proper AWS governance, security, and user access management.
-
-Screenshots
-Step	Screenshot
-MFA Setup![AWS IAM MFA setup](images/AWS IAM MFA setup.png.jpg)
-AWS Organisation![AWS Organization Creation](images/AWS Organization Creation.png)
-Permission Sets![AWS-IAM Permission](images/AWS-IAM Permission.png.jpg)
-User Creation![AWS-IAM User creation](images/AWS-IAM User creation.png.jpg)
-Users Overview![IAM Users Creation](images/IAM Users Creation.png.png)
-Group Creation![IAM Group creation](images/IAM Group creation.png.jpg)
-SSO Switch	
-
-
+The project involved setting up an AWS Organisation with a Management account and attempting to add Development, Staging, and Production accounts. IAM Identity Centre was used to manage access for 5 users grouped into Admin, DevOps, and Developer roles. Custom permission sets were created and assigned to these groups. Users were onboarded via IAM Identity Centre, and MFA was enabled. A quota issue restricted the creation of more than one additional AWS account. Role-switching via the SSO portal was tested and resulted in automatic logout upon change. Overall, the setup was completed successfully despite AWS account limitations.
 
 
 
