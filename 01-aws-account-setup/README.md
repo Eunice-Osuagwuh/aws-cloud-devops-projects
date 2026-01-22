@@ -71,8 +71,8 @@ Developer-Team	DataScientist-permission
 
 Review: Permission sets ensure users have access only to what is needed for their role.
 
-Screenshots:
-![AWS-IAM Permission](images/AWS-IAM Permission.png.jpg)
+mv "AWS-IAM Permission.png.jpg" aws_iam_permission.png
+
 
 Phase 4: Create Groups
 
@@ -139,6 +139,7 @@ User Creation![AWS-IAM User creation](images/AWS-IAM User creation.png.jpg)
 Users Overview![IAM Users Creation](images/IAM Users Creation.png.png)
 Group Creation![IAM Group creation](images/IAM Group creation.png.jpg)
 SSO Switch	
+
 
 
 
