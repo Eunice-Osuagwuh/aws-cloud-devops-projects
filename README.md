@@ -47,8 +47,8 @@ aws-cloud-fundamentals/
 ├── 06-auto-scaling/        (upcoming)
 └── README.md
 
- Project Breakdown
-01 – AWS Account Setup
+Project Breakdown
+AWS Account Setup
 
 Covers the foundational steps for setting up an AWS environment, including:
 
@@ -58,7 +58,7 @@ IAM users, groups, roles, and access best practices
 
 AWS Organisations and account governance
 
-02 – VPC Networking
+VPC Networking
 
 Focuses on AWS networking fundamentals:
 
@@ -70,7 +70,7 @@ Route tables, Internet Gateway, and NAT concepts
 
 Security Groups vs Network ACLs
 
-03 – EC2 Compute & Web Application Deployment
+EC2 Compute & Web Application Deployment
 
 A hands-on project demonstrating real-world AWS usage:
 
@@ -88,7 +88,7 @@ Validating public access via IP address and domain name
 
 This project ties together networking, security, compute, and DNS in a practical deployment scenario.
 
- Skills Demonstrated
+Skills Demonstrated
 
 AWS core services (EC2, VPC, IAM)
 
@@ -104,7 +104,7 @@ Cloud troubleshooting and validation
 
 Git and GitHub for documentation and version control
 
- Ongoing Improvements
+Ongoing Improvements
 
 This repository is actively maintained and will be expanded to include:
 
@@ -116,7 +116,7 @@ Enhanced IAM security practices
 
 High availability architectures
 
- Author
+Author
 
 Eunice Oluwatobi Osuagwuh
 AWS Cloud & Infrastructure
