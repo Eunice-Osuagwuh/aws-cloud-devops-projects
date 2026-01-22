@@ -55,8 +55,8 @@ Wait for the organisation to be fully created.
 
 Review: These accounts form the AWS environment structure. MFA is enabled on all accounts.
 
-Screenshots:
-![AWS Organization Creation](images/AWS Organization Creation.png)
+![AWS Organization Creation](images/aws-organization-creation.png)
+
 
 Issue Encountered: Unable to add more than one account due to the initial quota. Solution: Requested a limit increase in Service Quotas.
 
@@ -139,6 +139,7 @@ User Creation![AWS-IAM User creation](images/AWS-IAM User creation.png.jpg)
 Users Overview![IAM Users Creation](images/IAM Users Creation.png.png)
 Group Creation![IAM Group creation](images/IAM Group creation.png.jpg)
 SSO Switch	
+
 
 
 
