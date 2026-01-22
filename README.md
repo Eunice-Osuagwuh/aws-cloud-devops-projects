@@ -47,21 +47,18 @@ aws-cloud-fundamentals/
 ├── 06-auto-scaling/        (upcoming)
 └── README.md
 
-Project Breakdown
-AWS Account Setup
+Project Breakdown:
 
+AWS Account Setup
 Covers the foundational steps for setting up an AWS environment, including:
 
 AWS account creation
-
 IAM users, groups, roles, and access best practices
 
 AWS Organisations and account governance
 
 VPC Networking
-
-Focuses on AWS networking fundamentals:
-
+Focuses on AWS networking fundamentals
 VPC creation and design
 
 Public and private subnets
@@ -88,35 +85,23 @@ Validating public access via IP address and domain name
 
 This project ties together networking, security, compute, and DNS in a practical deployment scenario.
 
-Skills Demonstrated
 
+Skills Demonstrated:
 AWS core services (EC2, VPC, IAM)
-
 Linux server administration
-
 Secure SSH access and key management
-
 Web server configuration (Nginx)
-
 DNS and domain configuration
-
 Cloud troubleshooting and validation
-
 Git and GitHub for documentation and version control
 
 Ongoing Improvements
-
 This repository is actively maintained and will be expanded to include:
-
 Load Balancing (ALB/NLB)
-
 Auto Scaling Groups
-
 Enhanced IAM security practices
-
 High availability architectures
 
 Author
-
 Eunice Oluwatobi Osuagwuh
 AWS Cloud & Infrastructure
