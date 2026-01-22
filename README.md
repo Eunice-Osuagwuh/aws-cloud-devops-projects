@@ -9,6 +9,7 @@ A practical AWS portfolio
 A demonstration of real-world cloud deployment skills
 
 
+
 What This Repository Covers
 AWS account setup and best practices
 Identity and Access Management (IAM)
@@ -16,7 +17,10 @@ AWS Organisations and account governance
 Virtual Private Cloud (VPC) networking
 EC2 compute and web application deployment
 Secure access, networking, and DNS configuration
-📂 Repository Structure
+
+
+
+
 aws-cloud-fundamentals/
 ├── 01-aws-account-setup/
 │   ├── README.md
@@ -111,7 +115,5 @@ Enhanced IAM security practices
 High availability architectures
 
 Author
-
-Blessing Usifoh-Oamen
-
+Eunice Oluwatobi Osuagwuh
 AWS Cloud & Infrastructure
