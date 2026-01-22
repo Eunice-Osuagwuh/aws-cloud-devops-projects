@@ -1,9 +1,9 @@
 AWS IAM Identity Centre and AWS Organisation Setup
 Overview
 
-This project demonstrates how to design and implement centralised identity and access management across multiple AWS environments using AWS Organizations and IAM Identity Center (SSO). The setup follows AWS security best practices, including least privilege access, MFA enforcement, and role based access control.
+This project demonstrates how to design and implement centralised identity and access management across multiple AWS environments using AWS Organizations and IAM Identity Centre (SSO). The setup follows AWS security best practices, including least privilege access, MFA enforcement, and role-based access control.
 
-The goal was to simulate a real-world enterprise environment with separated accounts for Development, Staging, and Production, while managing users centrally through IAM Identity Center.
+The goal was to simulate a real-world enterprise environment with separated accounts for Development, Staging, and Production, while managing users centrally through IAM Identity Centre.
 
 Project Objectives
 
@@ -168,7 +168,7 @@ Centralised identity management improves security and operational efficiency
 
 Key Takeaways
 
-AWS Organizations enable scalable multi-account governance
+AWS Organisations enables scalable multi-account governance
 
 IAM Identity Centre is essential for enterprise-grade access control
 
@@ -179,3 +179,4 @@ Quota limitations should be considered during early project planning
 Project Status
 
 ✅ Completed with limitations due to AWS account quota restrictions
+
