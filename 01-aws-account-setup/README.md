@@ -96,7 +96,6 @@ Assign users to groups in all accounts.
 
 Review: Users’ access and functionality depend on their group’s permission set.
 
-Screenshots:
 ![IAM User Creation](images/iam_user.png)
 
 ![IAM Users Creation](images/IAM Users Creation.png.png)
@@ -141,6 +140,7 @@ User Creation![AWS-IAM User creation](images/AWS-IAM User creation.png.jpg)
 Users Overview![IAM Users Creation](images/IAM Users Creation.png.png)
 Group Creation![IAM Group creation](images/IAM Group creation.png.jpg)
 SSO Switch	
+
 
 
 
