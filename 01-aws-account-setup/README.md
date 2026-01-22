@@ -40,8 +40,8 @@ Enable MFA from IAM to secure the account.
 
 Review: This account serves as the management account, securing access with MFA according to AWS best practices.
 
-Screenshot:
-![AWS IAM MFA setup](images/AWS IAM MFA setup.png.jpg)
+![AWS IAM MFA setup](images/AWS-IAM-MFA-setup.png)
+
 
 Phase 2: Create an AWS Organisation
 
@@ -139,5 +139,6 @@ User Creation![AWS-IAM User creation](images/AWS-IAM User creation.png.jpg)
 Users Overview![IAM Users Creation](images/IAM Users Creation.png.png)
 Group Creation![IAM Group creation](images/IAM Group creation.png.jpg)
 SSO Switch	
+
 
 
