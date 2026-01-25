@@ -1,10 +1,10 @@
 # Project 02 – VPC Networking Fundamentals
 
 ## Project Objectives
-- Design AWS VPC architecture using [Draw.io](http://draw.io/)  
-- Create a VPC and subnets in AWS manually  
-- Configure route tables, internet gateway, security groups, and NACLs  
-- Build a secure network foundation for future deployments  
+- Designed AWS VPC architecture using [Draw.io](http://draw.io/)  
+- Created a VPC and subnets in AWS manually  
+- Configured route tables, internet gateway, security groups, and NACLs  
+- Built a secure network foundation for future deployments  
 
 ---
 
@@ -18,7 +18,9 @@
 - Network ACLs (NACLs)  
 - Notion (for documentation)  
 - [Draw.io](http://draw.io) (for architecture diagrams)  
-- CIDR blocks  
+- CIDR blocks
+
+-![VPC Architecture](images/vpc-architecture.png) 
 
 ---
 
@@ -27,9 +29,9 @@
 ### Phase I: VPC Creation
 ![VPC Creation](images/vpc-creation.png)
 
-1. Log in to AWS Console, navigate to **VPC**, and click **Create VPC**.  
-2. Name the VPC (optional).  
-3. Set the **IPv4 CIDR block** to `10.0.0.0/16` and create the VPC.  
+1. Logged in to AWS Console, navigated to **VPC**, and clicked **Create VPC**.  
+2. Named the VPC.  
+3. Set the **IPv4 CIDR block** to `10.0.0.0/16` and created the VPC.  
 
 **Review:** Custom, isolated network environment created for future deployments.
 
@@ -38,8 +40,8 @@
 ### Phase II: Subnet Creation
 ![Subnet Design](images/subnet-design.png)
 
-1. Create a **public subnet**: IPv4 `10.0.1.0/24`.  
-2. Create a **private subnet**: IPv4 `10.0.2.0/24`.  
+1. Created a **public subnet**: IPv4 `10.0.1.0/24`.  
+2. Created a **private subnet**: IPv4 `10.0.2.0/24`.  
 
 **Review:** Public and private subnets separate internet-facing and internal resources.
 
@@ -48,7 +50,7 @@
 ### Phase III: Route Table Configuration
 ![Route Table](images/route-table.png)
 
-1. Create a **Route Table** and attach it to the VPC.  
+1. Created a **Route Table** and attached it to the VPC.  
 2. Associate both public and private subnets with the route table.  
 
 **Review:** Controls traffic flow within the VPC and to external networks.
@@ -58,8 +60,8 @@
 ### Phase IV: Internet Gateway
 ![Internet Gateway](images/internet-gateway.png)
 
-1. Create an **Internet Gateway (IGW)** and attach it to the VPC.  
-2. Edit the route table for the public subnet to add a route to `0.0.0.0/0` via IGW.  
+1. Created an Internet Gateway and attached it to the VPC.  
+2. Edited the route table for the public subnet to add a route to `0.0.0.0/0` via IGW.  
 
 **Review:** Allows secure internet access for public subnet resources.
 
@@ -68,7 +70,7 @@
 ### Phase V: Security Groups
 ![Security Groups](images/security-groups.png)
 
-1. Create a **Security Group (SG-POD11)**.  
+1. Created a Security Group.  
 2. Add inbound rules for HTTP (80) and SSH (22).  
 3. Allow all outbound traffic.  
 
@@ -79,7 +81,7 @@
 ### Phase VI: Network ACLs
 ![Network ACLs](images/nacl.png)
 
-1. Create a **Network ACL (NACL-POD11)**.  
+1. Created a Network ACL.  
 2. Add inbound rules:  
    - Rule 100: HTTP (80), Allow, Source `0.0.0.0/0`  
    - Rule 110: SSH (22), Allow, Source `0.0.0.0/0`  
@@ -104,3 +106,4 @@ Secure, scalable AWS networking foundation ready for future projects like EC2, L
 ---
 
 ## Planned Repository Structure
+
