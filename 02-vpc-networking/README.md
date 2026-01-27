@@ -20,7 +20,7 @@
 - [Draw.io](http://draw.io) (for architecture diagrams)  
 - CIDR blocks
 
--![VPC Architecture](images-vpc/vpc-architecture.png)
+![VPC Architecture](images-vpc/vpc-architecture.png)
 ---
 
 ## Step-by-Step Implementation
