@@ -26,7 +26,8 @@
 ## Step-by-Step Implementation
 
 ### Phase I: VPC Creation
-![VPC Creation](images-vpc/vpc-creation.png)
+![VPC Creation](images-vpc/01-vpc-created.png)
+
 
 1. Logged in to AWS Console, navigated to **VPC**, and clicked **Create VPC**.  
 2. Named the VPC.  
@@ -105,6 +106,7 @@ Secure, scalable AWS networking foundation ready for future projects like EC2, L
 ---
 
 ## Planned Repository Structure
+
 
 
 
