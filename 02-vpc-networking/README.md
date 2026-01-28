@@ -111,6 +111,8 @@ Secure, scalable AWS networking foundation ready for future projects like EC2, L
     ├── README.md
 
     └── images-vpc/
+
+    └── vps_architecture.png
  
     ├── 01-vpc-created.png
    
@@ -123,8 +125,7 @@ Secure, scalable AWS networking foundation ready for future projects like EC2, L
     ├── 05-security-group-rules.png
    
     ├── 06-nacl-rules.png
-   
-    └── vps_architecture.png.png
+
 
 
 
