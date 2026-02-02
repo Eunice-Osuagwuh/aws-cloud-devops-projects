@@ -24,7 +24,7 @@
 ## Step-by-Step Implementation
 
 ### Phase I: Launch EC2 Instance
-![EC2 Launch](03-ec2-web-deployment/images/01-ec2-launch.png)
+![EC2 Launch](images/01-ec2-launch.png)
 
 1. Navigate to **EC2** in AWS and click **Launch Instance**  
 2. Select **Ubuntu Server**  
