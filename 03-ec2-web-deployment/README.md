@@ -33,7 +33,7 @@
 - Assign the previously configured **security group**  
 - Enable **Auto-assign Public IP**  
 
-Review:EC2 instance is launched in a secure VPC.
+Review: EC2 instance is launched in a secure VPC.
 
 ---
 
@@ -64,16 +64,22 @@ Review: Terminal access to the Ubuntu server achieved.
 ![Website Live IP](images/06-website-live-ip.png)
 
 sudo apt update
+
 sudo apt upgrade -y
+
 sudo apt install nginx -y
+
 sudo systemctl status nginx
+
 Check the web server by navigating to the public IP in a browser.
 
 ---
 
 ### Phase V: Deploy Website from GitHub
 git clone https://github.com/digitalwitchdemo/mediplus.git
+
 cd mediplus
+
 sudo mv ./* /var/www/html
 
 ![Website Live Ip](images/09-website-live-ip.png)
@@ -93,7 +99,7 @@ Website content now served from Nginx
 
 -Verify DNS propagation using a DNS checker
 
--Open website via your custom domain
+-Open the website via your custom domain
 
 Review: Domain successfully mapped to the EC2 server.
 
@@ -115,6 +121,7 @@ Review: Domain successfully mapped to the EC2 server.
 Outcome: A fully functional web server on AWS EC2 with content deployed from GitHub and accessible via a custom domain.
 
 Planned Repository Structure
+
 03-ec2-web-deployment/
 
 ├── README.md
