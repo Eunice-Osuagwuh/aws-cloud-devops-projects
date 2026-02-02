@@ -39,7 +39,7 @@
 
 ### Phase II: Key Pair & Security Group
 ![Key Pair Created](images/02-key-pair-created.png)  
-![Network & Security](images-ec2/03-network-security.png)
+![Network & Security](images/03-network-security.png)
 
 - Key Pair allows secure SSH login  
 - Security Group allows HTTP (80) and SSH (22) traffic  
