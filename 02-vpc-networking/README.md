@@ -125,11 +125,6 @@ Secure, scalable AWS networking foundation ready for future projects like EC2, L
     ├── 05-security-group-rules.png
    
     ├── 06-nacl-rules.png
-<<<<<<< HEAD
-
-
-=======
->>>>>>> f3ea6fc (Stage EC2 project for move)
 
 
 
