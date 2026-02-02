@@ -48,7 +48,7 @@
 ---
 
 ### Phase III: SSH Access via MobaXterm
-![MobaXterm SSH](images-ec2/04-mobaxterm-ssh.png)
+![MobaXterm SSH](images/04-mobaxterm-ssh.png)
 
 1. Open **MobaXterm**, start a new SSH session  
 2. Enter the EC2 **public IP** and username `ubuntu`  
