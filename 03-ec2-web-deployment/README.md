@@ -63,7 +63,6 @@
 
 ![Website Live IP](images/06-website-live-ip.png)
 
-```bash
 sudo apt update
 sudo apt upgrade -y
 sudo apt install nginx -y
@@ -115,6 +114,7 @@ Domain mapping and DNS management
 
 Outcome
 ![Website Live Ip](images-ec2/08-website-live-ip.png)
+
 A fully functional web server on AWS EC2 with content deployed from GitHub and accessible via a custom domain.
 
 Planned Repository Structure
