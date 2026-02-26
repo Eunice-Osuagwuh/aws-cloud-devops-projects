@@ -52,7 +52,7 @@ Public IP: 4.231.98.170
 
 SSH Key: eunice-key.pem
 
-Screenshot: Azure-VM creation.png
+![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-VM-creation.png)
 
 ---
 
