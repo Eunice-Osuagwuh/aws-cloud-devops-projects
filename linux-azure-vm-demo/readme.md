@@ -12,7 +12,7 @@ Commands Executed
 
 pwd
 
-![Linux Commands](screenshots/Azure-linus-commands.png)
+![Linux Commands](/linux-azure-vm-demo/screenshot/azure-linux-commands.png)
 ---
 
 # Create a directory and navigate into it
@@ -26,7 +26,7 @@ cd week1-practice
 
 ls -l
 
-Screenshot: Azure ls-notes.png
+![Linux Commands](/linux-azure-vm-demo/screenshot/azure-linux-commands.png)
 
 ---
 
