@@ -13,6 +13,7 @@ Commands Executed
 pwd
 
 ![Linux Commands](/linux-azure-vm-demo/screenshot/azure-linux-commands.png)
+
 ---
 
 # Create a directory and navigate into it
@@ -34,7 +35,8 @@ ls -l
 
 cat notes.txt
 
-![Linux Commands](/linux-azure-vm-demo/screenshot/azure cat-notes.png)
+![Linux Commands](/linux-azure-vm-demo/screenshot/azure-cat-notes.png)
+
 ---
 
 # Part B – Azure Virtual Machine
@@ -74,6 +76,7 @@ ls
 ![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-ssh-key.png)
 
 ![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-cat & ls.png)
+
 ---
 
 # Step 3: Install Git and Node.js
@@ -119,7 +122,7 @@ Network access: http://<VM-public-IP>:3000/
 
 If the site does not load, add an inbound rule for port 3000 in Azure Networking
 
-Screenshot: working app (optional) – Azure-app.png
+![Linux Commands](/linux-azure-vm-demo/screenshot/Azure-app.png)
 
 ---
 
