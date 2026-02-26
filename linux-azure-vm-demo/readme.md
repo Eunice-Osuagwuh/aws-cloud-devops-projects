@@ -18,8 +18,7 @@ pwd
 
 # Create a directory and navigate into it
 
-mkdir week1-practice
-cd week1-practice
+mkdir 
 
 ---
 
