@@ -1,108 +1,101 @@
-# AWS Cloud Fundamentals & Hands-On Projects
+# Cloud Engineering & DevOps Hands-On Portfolio
 
-Welcome to my AWS Cloud & DevOps learning journey! This repository documents my hands-on projects and structured notes covering key AWS services, cloud infrastructure, networking, security, compute, and DevOps practices, with a strong focus on real-world implementation.
+Welcome to my Cloud Engineering and DevOps learning journey.
 
-It is designed to serve as:
+This repository documents hands-on projects across Microsoft Azure and Amazon Web Services, covering cloud infrastructure, networking, security, compute, Linux administration, and automation.
 
-A personal learning reference for cloud and DevOps skills
-
-A practical AWS portfolio showcasing hands-on projects
-
-A demonstration of real-world cloud deployment and automation skills
+The goal of this repository is to demonstrate practical, real-world cloud implementation skills and continuous growth toward production-ready infrastructure engineering.
 
 ---
 
-## What This Repository Covers
+## Purpose of This Repository
 
-AWS Account Setup & Best Practices – creating accounts, IAM users, groups, roles, and governance using AWS Organizations
+This portfolio serves as:
 
-Identity & Access Management (IAM) – permissions, policies, and secure access
-
-Virtual Private Cloud (VPC) Networking – VPC creation, subnets, route tables, gateways, and network security
-
-EC2 Compute & Web Application Deployment – launching instances, configuring Linux servers, deploying web apps, and managing DNS
-
-Infrastructure as Code (IaC) & Automation – automating deployments with GitHub Actions, Terraform, and AWS tools
-
-Cloud Security & Monitoring – MFA, secure SSH access, logging, and monitoring
+• A structured cloud engineering learning reference
+• A multi-cloud hands-on project showcase
+• A demonstration of infrastructure deployment and troubleshooting skills
+• A foundation for DevOps automation and Infrastructure as Code
 
 ---
 
-##  What This Repository Covers
+##  What I Focus On
 
-- AWS account setup and best practices  
-- Identity and Access Management (IAM)  
-- AWS Organizations and account governance  
-- Virtual Private Cloud (VPC) networking  
-- EC2 compute and web application deployment  
-- Secure access, networking, and DNS configuration  
+Cloud Infrastructure Engineering
+Designing and deploying compute, networking, and security components in Azure and AWS.
+
+Linux Server Administration
+Provisioning, configuring, securing, and troubleshooting Linux-based servers.
+
+DevOps and Automation
+Building CI CD pipelines, Infrastructure as Code, and automated deployments.
+
+Multi Cloud Architecture
+Understanding and implementing solutions across Azure and AWS environments.
 
 ---
 
-##  Repository Structure
+##  Core Technologies
 
-```text
-aws-cloud-fundamentals/
-├── 01-aws-account-setup/
-│   ├── README.md
-│   └── images/
-│
-├── 02-vpc-networking/
-│   ├── README.md
-│   └── images/
-│
-├── 03-ec2-compute/
-│   ├── README.md
-│   └── ec2-compute-images/
-│
-├── 04-security-iam/        (upcoming)
-├── 05-load-balancing/      (upcoming)
-├── 06-auto-scaling/        (upcoming)
-└── README.md
+Cloud Platforms
+Microsoft Azure
+Amazon Web Services
 
-Project Breakdown
-AWS Account Setup
-Covers the foundational steps for setting up an AWS environment, including:
+Compute and Networking
+Virtual Machines
+EC2
+Virtual Networks and VPC
+Network Security and Firewalls
 
-AWS account creation:
-IAM users, groups, roles, and access best practices
+Operating Systems
+Ubuntu Linux
+Shell commands and server configuration
 
-AWS Organisations and account governance
+DevOps Tools
+Git and GitHub
+GitHub Actions
+Terraform
+Azure DevOps
 
-VPC Networking:
-Focuses on AWS networking fundamentals
-VPC creation and design
+Web and Deployment
+Nginx
+DNS configuration
+Secure SSH access
 
-Public and private subnets
-Route tables, Internet Gateway, and NAT concepts
-Security Groups vs Network ACLs
-EC2 Compute & Web Application Deployment
-A hands-on project demonstrating real-world AWS usage:
-Launching an EC2 instance inside an existing VPC
-Secure server access using SSH
-Installing and configuring Nginx on Ubuntu
-Deploying a web application from GitHub
-Configuring a custom domain and DNS records
-Validating public access via IP address and domain name
+# Featured Portfolio
+Cloud DevOps Engineering Portfolio
+Hands-on multi-cloud projects covering:
 
-This project ties together networking, security, compute, and DNS in a practical deployment scenario.
+Azure Virtual Machine deployment and Linux configuration,
+AWS VPC networking and EC2 web deployment,
+Secure infrastructure design,
+Web server configuration,
+Automation foundations.
 
-Skills Demonstrated
-AWS core services (EC2, VPC, IAM, Organisations)
-Linux server administration and SSH management
-Web server configuration (Nginx)
-DNS and domain setup
-Infrastructure as Code (Terraform, CloudFormation)
-CI/CD automation with GitHub Actions
-Cloud troubleshooting, validation, and best practices
-Git & GitHub for version control and project documentation
+You can explore my structured projects here:
+[(https://github.com/Eunice-Osuagwuh/cloud-devops-engineering-portfolio)]
 
-Ongoing Improvements
-This repository is actively maintained and will be expanded to include:
-Load Balancing (ALB/NLB)
-Auto Scaling Groups
-Enhanced IAM security practices
-High availability and resilient cloud architectures
+# Skills Demonstrated
+AWS core services (EC2, VPC, IAM, Organisations),
+Linux server administration and SSH management,
+Web server configuration (Nginx),
+DNS and domain setup,
+Infrastructure as Code (Terraform, CloudFormation),
+CI/CD automation with GitHub Actions,
+Cloud troubleshooting, validation, and best practices,
+Git & GitHub for version control and project documentation.
+
+# Current Focus
+Building production-ready cloud infrastructure,
+Strengthening Infrastructure as Code expertise,
+Advancing DevOps automation skills,
+Designing secure and scalable architectures.
+
+# Long Term Goal
+
+To become a Cloud Infrastructure and DevOps Engineer capable of designing secure, scalable, and automated cloud environments across multiple platforms.
+
 
 Author: Eunice Oluwatobi Osuagwuh
+
 Focus: AWS Cloud & Infrastructure | DevOps | Automation | Hands-On Learning
