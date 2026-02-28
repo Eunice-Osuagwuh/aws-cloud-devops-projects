@@ -202,3 +202,5 @@ Production-style application management using PM2
 Structured Git branching and Pull Request workflow
 
 This project strengthened practical DevOps foundations by combining system administration, application lifecycle management, and version control best practices.
+
+# P.S: All proofs are in the screenshot folder.
