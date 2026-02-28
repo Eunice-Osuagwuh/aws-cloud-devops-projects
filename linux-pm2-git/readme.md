@@ -108,8 +108,7 @@ Application logs accessible
 
 Startup configuration enabled automatic restart after reboot
 
-Screenshot: PM2 Process List
-
+![](linux-pm2-git/screenshots/Azure-task2-6.png)
 This confirms production style process management and resilience.
 
 ---
@@ -206,4 +205,4 @@ Production-style application management using PM2
 
 Structured Git branching and Pull Request workflow
 
-# This project strengthened practical DevOps foundations by combining system administration, application lifecycle management, and version control best practices.
+This project strengthened practical DevOps foundations by combining system administration, application lifecycle management, and version control best practices.
