@@ -64,6 +64,7 @@ This confirms that remote access to the VM is stable and operational.
 To review recent SSH activity
 
 sudo journalctl -u ssh --since "30 minutes ago"
+![](linux-pm2-git/screenshots/Azure-task2-4.png)
 
 # Observations
 
